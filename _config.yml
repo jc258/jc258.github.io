@@ -1,0 +1,23 @@
+# Jekyll Defaults
+title: 黄俊超的BLOG
+description: A small and simple site with Jekyll.
+baseurl: "" # the subpath of your site, e.g. /blog
+
+url: "http://localhost:3000"
+# github: http://github.com/ITSJOHNCENA
+
+markdown: redcarpet
+highlighter: rouge
+permalink: /post/:title/
+paginate: 5
+gems: [jekyll-paginate]
+paginate_path: "/page:num"
+rss_path: feed.xml
+tags_path: tag.html
+navigation:
+- text: 文章
+  url: /archives/
+- text: 关于
+  url: /about/
+- text: 标签
+  url: /tags/
